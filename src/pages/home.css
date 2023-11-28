@@ -1,0 +1,93 @@
+.mainContainer {
+    width: 100%;
+    max-width: 1024px;
+    display: block;
+    margin: 10rem auto;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.leftSide {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.titles h2 {
+    color: rgb(72, 72, 193);
+}
+
+p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.starter {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+    width: max-content;
+    text-align: center;  
+    transition: 0.5s; 
+}
+
+.starter:hover {
+    background-color: #3498db;
+}
+
+.starter a {
+    text-decoration: none;
+    color: black;
+}
+
+.rightSide {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSide img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.foot {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: max-content;
+    text-align: center;
+    margin-top: 250px;
+}
+.rightImg{
+    animation:chobi 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes chobi{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes chobi{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
